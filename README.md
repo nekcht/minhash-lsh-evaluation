@@ -25,7 +25,8 @@
 ## Results <a name = "res"></a>
 
 The project's visualizations offer valuable insights into the performance of the MinHash LSH model.
-![Alt text](https://imageupload.io/NVaeqIZjpC7uuX8 "Evaluation Plots")
+
+![Alt text](Figure_1.png "Evaluation Plots")
 <p align="justify">In plot A, the significance of the threshold on MinHash LSH accuracy is evident, as expected. Additionally, the number of permutations positively impacts accuracy across most threshold values. In plot B, we observe that threshold has minimal influence on training time, while the number of permutations directly affects training time, with more permutations resulting in higher times. Plot C reveals a relationship between threshold and query time, with smaller thresholds leading to longer query times as the predicted neighbor set grows, a trend also observed with the number of permutations. Finally, plot D illustrates the significant advantage of MinHash LSH in efficiently identifying true neighbors compared to kNN brute-force, highlighting the trade-off between false positives and false negatives.</p>
 
 ## License <a name = "license"></a>
