@@ -1,2 +1,2 @@
 # minhash-lsh-evaluation
-Assessing MinHash LSH for text similarity. Compares with kNN using BART embeddings as ground truth. Involves data preprocessing, shingle creation, LSH experiments. Findings inform LSH's efficiency in document similarity tasks, enhancing understanding of LSH techniques.
+This educational project assesses MinHash Locality Sensitive Hashing (LSH) for text document similarity. It compares LSH with a k-Nearest Neighbors (kNN) model using BART embeddings as ground truth. The project involves data preprocessing, shingle creation, and LSH experiments with varying parameters. Findings help understand LSH's efficiency and guide its use in document similarity tasks, enhancing knowledge of LSH techniques and applications.
